@@ -40,19 +40,11 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
-	# gaming
-	lutris python-protobuf steam steamtinkerlaunch
-	minigalaxy gamehub legendary bottles playonlinux obs-studio
-	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
-	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
-	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
-	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
-	libretro-yabause pcsx2-git lsfg-vk-git
 	# extra
-	ttf-dejavu ttf-liberation mpv geany pcmanfm
-	htop speedcrunch gpicview file-roller lxterminal
-	yt-dlp minizip jre17-openjdk
- 	ffmpegthumbnailer fuse2 unzip unzstd
+	ttf-dejavu ttf-liberation mpv pcmanfm
+	speedcrunch gpicview file-roller lxterminal
+	minizip jre17-openjdk
+ 	ffmpegthumbnailer fuse2 unzip
 )
 
 # If you want to install AUR packages, specify them in this variable
@@ -82,16 +74,11 @@ LOCALES=(
 # Content of pacman mirrorrlist file before reflector is installed and used to fetch new one
 # shellcheck disable=2016
 MIRRORLIST='
-Server = https://mirror1.sl-chat.ru/archlinux/$repo/os/$arch
-Server = https://mirror3.sl-chat.ru/archlinux/$repo/os/$arch
-Server = https://us.mirrors.cicku.me/archlinux/$repo/os/$arch
-Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
-Server = https://md.mirrors.hacktegic.com/archlinux/$repo/os/$arch
-Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://mirror.qctronics.com/archlinux/$repo/os/$arch
-Server = https://arch.mirror.constant.com/$repo/os/$arch
-Server = https://america.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://mirror.tmmworkshop.com/archlinux/$repo/os/$arch
+Server = http://mirror.bizflycloud.vn/archlinux/$repo/os/$arch
+Server = https://mirrors.huongnguyen.dev/arch/$repo/os/$arch
+Server = https://mirror.meowsmp.net/arch/$repo/os/$arch
+Server = https://mirrors.nguyenhoang.cloud/archlinux/$repo/os/$arch
+
 '
 
 # Enable this variable to use the system-wide mksquashfs/mkdwarfs instead
