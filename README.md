@@ -551,3 +551,5 @@ Lsfg-vk is included in Conty, but is disabled by default. You can enable it by u
 * [archlinux](https://archlinux.org/)
 * [chaotic-aur](https://aur.chaotic.cx/)
 * [alhp](https://somegit.dev/ALHP/ALHP.GO)
+
+### You cant use the -g option in this build
