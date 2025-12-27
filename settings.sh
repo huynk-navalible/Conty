@@ -89,7 +89,7 @@ USE_SYS_UTILS=0
 # These are the algorithms supported by the integrated squashfuse
 # However, your squashfs-tools (mksquashfs) may not support some of them
 SQUASHFS_COMPRESSOR="xz"
-SQUASHFS_COMPRESSOR_ARGUMENTS=(-b 1M -comp "${SQUASHFS_COMPRESSOR}" -Xcompression-level 19)
+SQUASHFS_COMPRESSOR_ARGUMENTS=(-b 1M -comp "${SQUASHFS_COMPRESSOR}")
 
 # Uncomment these variables if your mksquashfs does not support zstd or
 # if you want faster compression/decompression (at the cost of compression ratio)
